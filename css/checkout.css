@@ -1,3 +1,50 @@
+
+body {
+    background-color: rgb(6, 34, 28) /* Dark navy color */
+  
+}
+
+nav{
+    background-color: black;
+    font-size: xx-large;
+}
+
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    text-decoration: underline;
+    font-size: 3em;
+}
+
+h4{
+    color: white;
+    text-decoration: underline;
+    
+}
 .card-footer{
     background: transparent;
+    border-top: none;
+}
+
+.form-border {
+    border: 2px solid #ddd; /* Border color and thickness */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for a slight 3D effect */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(67, 67, 67, 0.892); /* Adjust the RGBA values */
+}
+
+.form-container {
+    background-color: #ffffff; /* White background for form */
+    padding: 20px;
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
 }
