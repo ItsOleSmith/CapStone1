@@ -27,7 +27,7 @@ a{
 
 .allCards{
     display: flex; 
-    margin: 100px 10px ;
+    margin: 90px 10px ;
     max-width: 100%;
     flex-wrap: wrap;
     justify-content: center;
@@ -36,7 +36,7 @@ a{
 
 .card{
     padding: 50px; 
-    margin: 10px 15px 15px 15px;
+    margin: 10px 0px 10px 40px;
     border-radius: 0;
     border: 2px solid black;
     box-shadow: 1px 4px 16px 4px  rgba(0, 0, 0, 0.705);
@@ -47,6 +47,9 @@ a{
     transform: scale(1.05);
 }
 
+a:active{
+    background-color: rgb(165, 16, 41);
+}
 .btn-primary{
     display: flex;
     justify-content: center;
