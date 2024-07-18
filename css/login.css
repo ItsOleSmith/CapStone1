@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box ;
+}
+body{
+  min-height: 100vhd;
+  background:rgb(6, 34, 28);
+  display: flex;
+  font-family: sans-serif;
+}
+
+.login{
+  float: right; 
+  background: rgba(113, 235, 135, 0.9);
+  padding: 50px;
+  max-width: 600px;
+  max-height: 200px;
+  margin-top:250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 4px rgba(10, 149, 255, 0.3);
+  margin-right:80px; 
+  color: rgb(0, 0, 0);
+  margin-left: 500px;
+}
+
+.email {
+font-family: fantasy;
+font-size: large;
+}
+
+.password {
+  font-family: fantasy;
+  font-size: large;
+}
