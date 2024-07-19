@@ -37,7 +37,7 @@ nav a.active {
   color: white;
 }
 
-.login{
+.logs {
   float: right; 
   background: rgba(113, 235, 135, 0.9);
   padding: 50px;
@@ -60,3 +60,5 @@ font-size: large;
   font-family: fantasy;
   font-size: large;
 }
+
+My css completely dissappeared after I saved to github using oush and commit. Unsure how to get back, as it took me a while to work on.

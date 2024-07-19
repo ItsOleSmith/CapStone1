@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-   
+
+    <!--Style-->
+    <link rel="stylesheet" href="/css/checkout.css">
+
+</head>
+
+<body>
     <nav>
         <div class="container">
             <div class="row">
@@ -17,52 +23,8 @@
             </div>
         </div>
     </nav>
-   <style>
-        body{
-            margin: 0;
-            padding:0;
-            box-sizing: border-box ;
-        }
-        body{
-            min-height: 100vhd;
-            background:rgb(6, 34, 28);
-            display: flex;
-            font-family: sans-serif;
-        }
-     
-        .container2{
-            margin: auto;
-            width: 500px;
-            max-width: 90%;
-        }
-        .container form{
-            width: 100%;
-            height: 100%;
-            padding: 20px;
-            background: white;
-            border-radius: 4px;
-            box-shadow: 0 8px 16px rgb(0, 0, 0);
-        }
-        .container2 form h1{
-            text-align: center;
-            margin-bottom: 24px;
-            color: #222;
-        }
-        .container form .form-control{
-            width:100%;
-            height: 40px;
-            background: white;
-            border-radius: 4px;
-            border:1px solid silver ;
-            margin: 10px 0 18px 0;
-        }
-
-    </style>
-
-</head>
-
-<body>
-  <div class="login">
+  
+  <div class="logs">
     <p class="email">
       Email:
       <input id="username" type="email" placeholder="enter email">
@@ -73,17 +35,19 @@
       <input id="password" type="password" placeholder="enter password">
     </p>
     <a href="">Forgot Password</a>
-
-    <p id="errorMessage"></p>
-
-    <button id="btnLogin"><a href="/product.html">LOGIN</a></button>
-    <a href="/registration.html">Sign Up</a> 
+  </div> 
 
     <div class="row mb-4">
         <div class="col d-flex justify-content-center">
          <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
         <label class="form-check-label" for="form2Example31"> Remember me </label>
+
+        <p id="errorMessage"></p>
+
+        <button id="btnLogin"><a href="/product.html">LOGIN</a></button>
+        <a href="/registration.html">Sign Up</a> 
+    
       </div>
     </div>
 
